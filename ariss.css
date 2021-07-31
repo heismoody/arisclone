@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerimg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+header {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+}
+
+input {
+    margin-top: 8px;
+    outline: none;
+}
+
+.inputcontainer {
+    padding: 15px;
+    background: #eeeeee;
+}
+
+.headcontainer {
+    display: flex;
+    align-items: center;
+    background: #9db3ac;
+}
+
+.headdescription {
+    margin-left: 40px;
+    color: white;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+.lowribbon {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    background: #888888;
+    color: white;
+    font-style: italic;
+}
+
+.loginbtn {
+    background: white;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 2px 5px 0 5px;
+    color: red;
+}
+
+.logform {
+    display: flex;
+}
+
+.homebtn {
+    padding: 5px 0 5px 5px;
+    background: #cccccc;
+    border: 3px solid #eeeeee;
+    outline: 1px solid #cccccc;
+    color: red;
+    font-weight: bold;
+}
+
+.loginhead {
+    font-weight: bold;
+    background: #cccccc;
+}
+
+.logform {
+    padding: 30px;
+    background: #eeeeee;
+}
+
+.logindiv {
+    margin: 40px;
+}
+
+.studentlink {
+    background: white;
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.titlename {
+    margin-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.accomodationbtn {
+    margin: 0 0 0 2px;
+    padding: 5px 80px 5px 5px;
+    background: white;
+    border: 3px solid #eeeeee;
+    outline: 1px solid #cccccc;
+    font-size: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.logoutbtn {
+    margin: 30px 0 0 2px;
+    padding: 5px 130px 5px 5px;
+    background: #ffcccc;
+    border: 3px solid #eeeeee;
+    outline: 1px solid #cccccc;
+    font-size: 11px;
+    color: red;
+}
+
+.table {
+    margin-left: 20px;
+}
+
+table td {
+    border: 1px solid #cccccc;
+    padding: 5px 6px 5px 6px;
+    font-size: 14px;
+}
+
+#sameeff {
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+}
+
+#entities {
+    font-size: 12px;
+}
+
+.bg_popup {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.contentpop {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contentpopup {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#inputfields {
+    text-align: center;
+    padding: 5px 0 5px 0;
+    outline: none;
+}
+
+#submitid {
+    text-align: center;
+    padding: 5px 60px 5px 60px;
+    outline: none;
+    font-weight: bold;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.unique {
+    text-decoration: none;
+    color: red;
+}
+
+@media screen and (max-width: 682px) {
+    .headcontainer {
+        width: 2068px;
+    }
+    .lowribbon {
+        width: 2068px;
+    }
+    .bg_popup {
+        width: 2068px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headcontainer {
+        width: 1024px;
+    }
+    .lowribbon {
+        width: 1024px;
+    }
+    .bg_popup {
+        width: 1024px;
+    }
+}
